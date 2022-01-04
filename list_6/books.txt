@@ -1,0 +1,12 @@
+rodzaje 'ksiązek' które utworzyłam:
+
+book - pierwotna ksiązka utworzona z zcytywania stron
+tempBook - słownik; numer strony to klucz jej treść to wartość. 
+
+newBook - strony to listy wyrazów z strony
+cleanBook - strony bez stopwords na stronie - również forma listy 
+plainPages - ksiązka gdzie każdy element to strona (usunięte są znaki interpunkcyjne)
+cleanPages - to samo co cleanBook ale każdy element to treść jednej strony bez znaków stop
+entireBook - wszystkie listy jako jedna (concatenacja wszystkich stron), 
+             to jest lista której elementy to słowa w ksiązce wzorowana na newBook.
+
